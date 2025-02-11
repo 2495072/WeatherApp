@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero h6{
+  font-size: 24px; 
+}
+
+.weather-banner{
+  padding: 30px 0;
+  /* background: url(https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg) rgba(255, 255, 255, 50%);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay; */
+  background-image: linear-gradient(45deg, #3E5879, #789DBC);
+}
+
+.temp-card{
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(45deg, #F6D6D6, #FBFBFB);
+
+}
+
+.weather-icon{
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+
+.weather-icon2{
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.weather-icon3{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.card-body{
+  background-image: linear-gradient(45deg, #213555, #78B3CE );
+}
+
+footer{
+  background-image: linear-gradient(45deg, #3E5879, #789DBC);
+}
+
+footer p{
+  font-size: 0.9em;
+}
+
+footer h6{
+  font-size: 1.2em;
+}
+
+
+@media only screen and (max-width: 768px){
+  .html {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .html {
+    font-size: 14px;
+  }
+}
