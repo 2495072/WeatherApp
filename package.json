@@ -1,7 +1,7 @@
 {
   "name": "weatherapp",
   "private": true,
-  "homepage": "https://2495072.github.io/WeatherApp",
+  "homepage": "https://2495072.github.io/WeatherApp/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
