@@ -8,7 +8,7 @@ function Footer(){
 
 		<footer className="footer py-4 text-center">
 			<div className="container">
-				<h6 className="text-light">By Evgenia & Helena</h6>
+				<h6 className="text-light"></h6>
 				<p className="text-light">Copyright ©2024</p>	
 			</div>
 		</footer>
